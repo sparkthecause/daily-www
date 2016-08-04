@@ -1,0 +1,40 @@
+{
+  "name": "daily-www",
+  "version": "0.1.0",
+  "description": "Website for Spark Daily",
+  "main": "server.js",
+  "engines": {
+    "node": "6.3.0",
+    "npm": "3.10.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "pretest": "npm run lint",
+    "test": "PORT=3001",
+    "lint": "semistandard --fix",
+    "debug": "DEBUG=1 nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparkthecause/daily-www.git"
+  },
+  "author": "Charles Burgess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sparkthecause/daily-www/issues"
+  },
+  "homepage": "https://github.com/sparkthecause/daily-www",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-sslify": "^1.1.0",
+    "moment": "^2.14.1",
+    "moment-business": "^3.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0",
+    "nodemon": "^1.9.2",
+    "semistandard": "^8.0.0"
+  }
+}
