@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     var email = $('#emailInput').val();
 
-    $.post('http://daily-api.sparkthecause.com/api/subscribers', { email: email })
+    $.post('http://daily-api.sparkthecause.com/subscribers', { email: email })
     .done(function (data) {
       sweetAlert({
         title: "You're good to go!",
@@ -31,7 +31,7 @@ $(document).ready(function () {
     var id = $('#unsubscribeBtn').data('id');
 
     $.ajax({
-      url: 'http://daily-api.sparkthecause.com/api/subscribers?id=' + id,
+      url: 'http://daily-api.sparkthecause.com/subscribers?id=' + id,
       type: 'DELETE'
     })
     .done(function (data) {
