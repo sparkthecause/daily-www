@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'fontello';
-  src: url('./font/fontello.eot');
-  src: url('./font/fontello.eot#iefix') format('embedded-opentype'),
-       url('./font/fontello.woff') format('woff'),
-       url('./font/fontello.ttf') format('truetype'),
-       url('./font/fontello.svg#fontello') format('svg');
+  src: url('../public/font/fontello.eot');
+  src: url('../public/font/fontello.eot#iefix') format('embedded-opentype'),
+       url('../public/font/fontello.woff') format('woff'),
+       url('../public/font/fontello.ttf') format('truetype'),
+       url('../public/font/fontello.svg#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -67,15 +67,15 @@
 
 @font-face {
   font-family: 'Avenir-Roman';
-  src: url('./font/Avenir-Roman-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('./font/Avenir-Roman-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('./font/Avenir-Roman-webfont.svg') format('svg'); /* Legacy iOS */
+  src: url('../public/font/Avenir-Roman-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../public/font/Avenir-Roman-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../public/font/Avenir-Roman-webfont.svg') format('svg'); /* Legacy iOS */
 }
 @font-face {
   font-family: 'Avenir-Black';
-  src: url('./font/Avenir-Black-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('./font/Avenir-Black-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('./font/Avenir-Black-webfont.svg') format('svg'); /* Legacy iOS */
+  src: url('../public/font/Avenir-Black-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../public/font/Avenir-Black-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../public/font/Avenir-Black-webfont.svg') format('svg'); /* Legacy iOS */
 }
 * {
 	margin: 0;
