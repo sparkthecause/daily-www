@@ -1,23 +1,16 @@
 import React from 'react';
+import Banner from './Banner';
+import Subscribe from './Subscribe'
 
 const Home = () => {
   return (
     <div>
-      <a href="/archive" className="banner">
-        Curious? See today's email
-        <i className="icon-right-big"></i>
-      </a>
-
+      <Banner/>
       <div className="hero">
         <h1>Get smiles in <br className="mobile-only"/>your inbox</h1>
-        <form>
-          <input id="emailInput" type="email" placeholder="Your email address"/>
-          <button id="subscribeBtn"><i className="icon-right-big"></i></button>
-        </form>
+        <Subscribe/>
         <h1>every day.</h1>
       </div>
-
-      <div className="hero-bg"></div>
     </div>
   )
 };
